@@ -9,5 +9,5 @@ createRoot(document.getElementById('root')).render(
     <TaskProvider>
       <App />
     </TaskProvider>
-  </StrictMode>,
+  </StrictMode>
 )

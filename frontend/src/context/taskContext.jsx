@@ -2,7 +2,7 @@ import { createContext, useContext, useEffect, useState } from 'react';
 
 export const TaskContext = createContext();
 
-const PORT = import.meta.env.VITE_BACKEND_URI;
+const PORT = import.meta.env.VITE_BACKEND_URI || 'http://localhost:8080';
 
 // console.log(PORT)
 
